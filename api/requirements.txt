@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+python-multipart     # lets FastAPI accept file uploads
+pillow               # image decoding (PIL)
+numpy                # array manipulations
+requests             # call TF‑Serving REST (or keep httpx if you prefer)
+pydantic             # FastAPI already pulls this, but listing is fine
